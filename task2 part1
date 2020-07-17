@@ -1,0 +1,31 @@
+# print all positive numbers.
+list1 = [12,-7,-5,64,-14]
+for num in list1:
+    if num> 0:
+        print(num, end = " ")
+
+        
+list2 = [12,14,-95,3]
+for num in list2:
+    if num>0:
+        print(num, end = " ")
+        
+# program for fibonacci numbers.        
+def fib(x):
+    a=0
+    b=1
+    print(a)
+    print(b)
+    for i in range(2,x):
+        
+        
+        c = a+b
+        a = b
+        b = c
+        print(c)
+    
+
+
+
+
+fib(20)        
